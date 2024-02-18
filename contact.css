@@ -1,0 +1,111 @@
+:root {
+    --primary-color: #33383C;
+    --secondary-color: #33383C;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #33383C 32%, #ffffff 10%);
+    margin: auto;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+
+header {
+    padding: 1.7rem 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    align-content: center;
+}
+
+.logo a {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav {
+    z-index: 1;
+}
+
+nav a {
+    color: #33383C;
+    text-decoration: none;
+    font-size: .97rem;
+    font-weight: 600;
+    padding: 0.4rem 1.3rem;
+}
+
+#click {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+/* CONTACT SECTION */
+
+section {
+    margin: 2rem 8.5rem;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact form .input-group {
+    margin-bottom: 20px;
+}
+
+.contact form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #555;
+}
